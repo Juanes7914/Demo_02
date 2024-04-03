@@ -15,6 +15,7 @@ namespace MyLibrary
 
     public class Secretary : Employee 
     {
+        public override decimal CalculateMonthlyPayment() => 15000;
 
     }
 
